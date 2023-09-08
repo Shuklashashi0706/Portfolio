@@ -4,6 +4,8 @@ import Mongodb from "../../assets/svg/mongodb.svg";
 import Express from "../../assets/svg/express.svg";
 import Node from "../../assets/svg/node.svg";
 import react from "../../assets/svg/react.svg";
+import Github from "../../assets/svg/github.svg"
+import Linux from "../../assets/svg/linux.svg"
 const skill = () => {
   return (
     <div className="h-[590px] bg-black">
@@ -14,10 +16,12 @@ const skill = () => {
           </h1>
         </div>
         <div className="grid grid-cols-3 grid-rows-2 ml-[180px]">
-          <Skill img={Mongodb}/>
-          <Skill img={Express} />
-          <Skill img={react} />
-          <Skill img={Node} />
+          <Skill img={Mongodb} title="Mongodb"/>
+          <Skill img={Express} title="Express" />
+          <Skill img={react} title="React.js"/>
+          <Skill img={Node} title="Node.js"/>
+          <Skill img={Github} title="Github"/>
+          <Skill img={Linux} title="Linux"/>
         </div>
       </div>
     </div>
