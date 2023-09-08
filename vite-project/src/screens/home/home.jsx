@@ -2,7 +2,7 @@ import React from "react";
 import Profile from "../../assets/img/shashi.png";
 const home = () => {
   return (
-    <div className="h-[525px] bg-black ">
+    <div className="h-[590px] bg-black ">
       <div className=" grid grid-cols-2 gap-[10px] w-full place-content-center h-full ">
         <div className=" flex flex-col items-center justify-center text-white text-[40px]">
           <div className="">
